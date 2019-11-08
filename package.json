@@ -1,0 +1,29 @@
+{
+  "name": "EpiMoreEditors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@episerver/react-to-dijit-adapter": "^1.0.2",
+    "babel-loader": "^8.0.6",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

@@ -44,10 +44,12 @@
     <None Include="EpiMoreEditors.nuspec">
       <SubType>Designer</SubType>
     </None>
+    <None Include="LICENSE.md" />
     <None Include="module.config" />
     <None Include="package-lock.json" />
     <None Include="package.json" />
     <None Include="Packager\Main.targets" />
+    <None Include="README.md" />
     <None Include="web.config.install.xdt">
       <SubType>Designer</SubType>
     </None>

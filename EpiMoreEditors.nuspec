@@ -4,17 +4,20 @@
     <id>EpiMoreEditors</id>
     <version>$version$</version>
     <title>EpiMoreEditors</title>
-    <authors>Zap</authors>
-    <owners></owners>
+    <authors>Tim Franzén</authors>
+    <owners>Tim Franzén</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>More editors for Episerver!</description>
+    <description>Adds more editors to Episerver</description>
     <copyright>Copyright © 2019</copyright>
     <tags>EPiServerModulePackage</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI.Core" version="[11.1.0,12.0.0)"/>
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\$configuration$\EpiMoreEditors.dll" target="lib\net461\" />
     <file src="bin\$configuration$\EpiMoreEditors.zip" target="content\modules\_protected\EpiMoreEditors\" />
-	<file src="web.config.install.xdt" target="content" />
+	  <file src="web.config.install.xdt" target="content" />
     <file src="web.config.uninstall.xdt" target="content" />
   </files>
 </package>

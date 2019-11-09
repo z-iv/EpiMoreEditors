@@ -3,7 +3,7 @@ using EPiServer.Shell.ObjectEditing.EditorDescriptors;
 
 namespace EpiMoreEditors.Episerver.EditorDescriptors
 {
-    [EditorDescriptorRegistration(TargetType = typeof(string), UIHint = MoreUIHints.TextAreaWithStatistics)]
+    [EditorDescriptorRegistration(TargetType = typeof(string), UIHint = MoreUIHints.TextFieldWithStatistics)]
     public class TextFieldWithStatisticsEditorDescriptor : EditorDescriptor
     {
         public TextFieldWithStatisticsEditorDescriptor()

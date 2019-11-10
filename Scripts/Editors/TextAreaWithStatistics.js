@@ -6,10 +6,8 @@ const TextAreaWithStatistics = ({ onChange, value }) => {
     const result = StringStatistics(value);
     return (
         <>
-            <textarea onChange={(e) => onChange(e.target.value)} value={ value } style={{ width: "600px" }} />
-            <div> Characters: { result.characters } </div>
-            <div> Words: { result.words } </div>
-            <div> Paragraphs: { result.paragraphs } </div>
+            <textarea className="dijitTextBox dijitTextArea" onChange={(e) => onChange(e.target.value)} value={value} style={{ width: "600px" }}/>
+            <div style={{ fontSize: "12px", color: "#333" }}>characters: {result.characters}, words: {result.words}, paragraphs: {result.paragraphs}</div>
         </>
     );
 };
